@@ -12,7 +12,7 @@ chrome.storage.sync.get(tagsKey, function (data) {
     let hasAddedClickableLinks = false;
     let isDisabled = false;
 
-    $("#fulfill-pullrequest").on("click", function () {
+    $(document).on("click", "#fulfill-pullrequest", function () {
         setTimeout(function () {
             createClickableLinks();
 

@@ -1,6 +1,6 @@
 {
     "name": "Merge Guardian",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Disables the merge button when certain keyword is missing in the comment on bitbucket PR's commit message",
     "permissions": ["storage"],
     "background": {
